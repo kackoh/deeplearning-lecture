@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import DrawableCanvas from './components/DrawableCanvas.jsx'
 
 class Layout extends React.Component {
   render() {
     return (
-      <h1>Welcome!</h1>
+      <DrawableCanvas />
     );
   }
 }
