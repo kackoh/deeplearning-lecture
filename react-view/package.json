@@ -13,6 +13,7 @@
   },
   "author": "kackoh",
   "license": "ISC",
+  "proxy": "http://localhost:5000",
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.0",
