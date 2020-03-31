@@ -28,8 +28,8 @@ export default function DrawableCanvas(props) {
       <SignatureCanvas 
       ref={canvasRef}
       penColor='white' 
-      minWidth={15}
-      maxWidth={15}
+      minWidth={25}
+      maxWidth={25}
       canvasProps={{width: 300, height: 300, className: 'sigCanvas'}}
       backgroundColor='rgba(0,0,0,1)' />
       {image
