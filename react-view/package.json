@@ -13,13 +13,17 @@
   },
   "author": "kackoh",
   "license": "ISC",
+  "proxy": "http://localhost:5000",
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.0",
     "@babel/preset-react": "^7.9.4",
+    "@material-ui/core": "^4.9.7",
+    "@material-ui/icons": "^4.9.1",
     "babel-loader": "^8.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-signature-canvas": "^1.0.3",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"
